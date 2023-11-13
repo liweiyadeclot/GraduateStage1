@@ -1,0 +1,20 @@
+﻿  test.cpp
+C:\Users\西西鼠霸王\Desktop\研0\GraduateStage1\Introduction To Algorithm\Project1\Chapter 6\Heap.h(14,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\西西鼠霸王\Desktop\研0\GraduateStage1\Introduction To Algorithm\Project1\Chapter 6\Heap.h(13,3): message : 在编译 类 模板 成员函数“Chapter6::Heap<T>::Heap(std::vector<int,std::allocator<int>>)”时
+          with
+          [
+              T=int
+          ]
+C:\Users\西西鼠霸王\Desktop\研0\GraduateStage1\Introduction To Algorithm\Project1\Chapter 6\MinHeap.h(25,12): message : 请参阅 "Chapter6::MinHeap<int>::MinHeap" 中对 "Chapter6::Heap<T>::Heap" 的第一个引用
+          with
+          [
+              T=int
+          ]
+C:\Users\西西鼠霸王\Desktop\研0\GraduateStage1\Introduction To Algorithm\Project1\Chapter 6\test.cpp(13,16): message : 请参阅 "main" 中对 "Chapter6::MinHeap<int>::MinHeap" 的第一个引用
+C:\Users\西西鼠霸王\Desktop\研0\GraduateStage1\Introduction To Algorithm\Project1\Chapter 6\MinHeap.h(12,25): message : 查看对正在编译的 类 模板 实例化“Chapter6::Heap<T>”的引用
+          with
+          [
+              T=int
+          ]
+C:\Users\西西鼠霸王\Desktop\研0\GraduateStage1\Introduction To Algorithm\Project1\Chapter 6\test.cpp(13,15): message : 查看对正在编译的 类 模板 实例化“Chapter6::MinHeap<int>”的引用
+  Chapter 6.vcxproj -> C:\Users\西西鼠霸王\Desktop\研0\GraduateStage1\Introduction To Algorithm\Project1\x64\Debug\Chapter 6.exe

@@ -32,7 +32,7 @@ T PriQueue<T>::Maximum()
 template<typename T>
 T PriQueue<T>::ExtractMax()
 {
-	if (A.GetHeapsize() < 1)]
+	if (A.GetHeapsize() < 1)
 	{
 		std::cout << "error! heap underflow" << std::endl;
 		return T();
@@ -46,7 +46,7 @@ T PriQueue<T>::ExtractMax()
 template<typename T>
 void PriQueue<T>::IncreaseKey(T x, int index, T k)
 {
-	if (key < A[index])
+	if (k < A[index])
 	{
 		std::cout << "new key is smaller than current key." << std::endl;
 		return;
@@ -55,7 +55,14 @@ void PriQueue<T>::IncreaseKey(T x, int index, T k)
 	while (index > 0 && A[A.Parent(index)] < A[index])
 	{
 		std::swap(A[index], A[A.Parent(index)]);
-		i = A.Parent(index);
+		index = A.Parent(index);
 	}
 
+}
+
+template<typename T>
+void PriQueue<T>::print()
+{
+	// do nothing
+	return;
 }

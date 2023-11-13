@@ -127,12 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Heap.h" />
     <ClInclude Include="MaxHeap.h" />
+    <ClInclude Include="MergeList.h" />
+    <ClInclude Include="MinHeap.h" />
     <ClInclude Include="PriQueue.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MaxHeap.cpp" />
-    <ClCompile Include="PriQueue.cpp" />
+    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

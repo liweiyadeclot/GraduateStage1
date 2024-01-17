@@ -1,0 +1,23 @@
+﻿  main.cpp
+C:\Users\PC\Desktop\GraduateStage1\OpencvTest\main.cpp(17,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\PC\Desktop\GraduateStage1\OpencvTest\main.cpp(102,21): warning C4244: '=': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\PC\Desktop\GraduateStage1\OpencvTest\main.cpp(103,21): warning C4244: '=': conversion from '_Tp' to '_Tp', possible loss of data
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+C:\Users\PC\Desktop\GraduateStage1\OpencvTest\main.cpp(146,65): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\PC\Desktop\GraduateStage1\OpencvTest\main.cpp(147,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  OpencvTest.vcxproj -> C:\Users\PC\Desktop\GraduateStage1\OpencvTest\x64\Debug\OpencvTest.exe
